@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+body{
+    background-image: url(images/3rd.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+    text-align: center;
+    
+}
+h1{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 70px;
+}
+#start{
+    padding: 12px 30px;
+    margin-top: 30px;
+    background-image: linear-gradient(to right,rgb(255, 166, 0), rgb(255, 94, 0));
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#h21{
+    color: white;
+    margin-top: 30px;
+    display: none;
+}
+form{
+    display: none;
+    margin-top: 10px;
+}
+form .phone .form{
+    width: 100px;
+    padding: 15px 90px;
+    border: none;
+    outline: none;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: none;
+    background-color: white;
+    color: black;
+}
+/* .submitted{
+    padding: 12px 30px;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(255, 166, 0), rgb(255, 94, 0));
+} */
+
+form .phone {
+    width: 281px;
+    height: 350px;
+    background-color: rgb(49, 8, 230);
+    text-align: center;
+    margin: 10px auto;
+    border-radius: 10px;
+   background-color: black;
+  
+   
+}
+#h31{
+    display: none;
+}
+form .phone input{
+    padding: 15px 39px;
+    margin-top: 25px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+form .phone .btn2{
+    padding: 15px 35px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+form .phone .btn1:hover{
+    background-color: blue;
+}
+h3{
+    color: white;
+    font-weight: bold;
+    display: none;
+    margin-top: 40px;
+}
+.logbtn{
+    padding: 12px 38px;
+    margin-top: 40px;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(255, 166, 0), rgb(255, 94, 0));
+}
+#h32{
+    margin-top: 40px;
+    color: white;
+    font-weight: bold;
+}
+#mainb{
+    display: none;
+}
+#amount{
+    width: 100px;
+    padding: 10px 90px;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+#tk{
+    display: none;
+}
+#h4{
+    margin-top: 45px;
+    color: white;
+    display: none;
+}
+
+.logbtn2{
+    margin-top: 40px;
+}

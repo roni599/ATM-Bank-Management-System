@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM Bank</title>
+</head>
+
+<body>
+
+
+
+    <div class="box1">
+        <h1>Misty Dream Broken Bank LTD</h1>
+
+        <button id="start">Start</button>
+
+        <h2 id="h21" class="h21">Welcome To Misty's Dream Broken Banking System</h2>
+
+        <form name="form">
+
+            <!-- <button class="submitted" id="sub">Submit</button> -->
+
+            <div id="tk">
+                <input type="button" id="back" class="logbtn logbtn1" onclick="show4()" value="Back">
+                <input type="text" id="amount" placeholder="Enter Amount">
+                <input type="button" value="Withdraw" class="logbtn" id="with">
+                <h3 id="h4"></h3>
+                <input type="button" value="Back" id="back" onclick="show4()" class="logbtn logbtn2">
+            </div>
+
+            <div class="phone" id="phone">
+                <input type="text" name="result" class="form" placeholder="Enter your pin" id="pass">
+                <input type="button" value="1" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="2" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="3" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="4" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="5" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="6" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="7" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="8" name="btn" class="btn1" onclick="calculator(this.value)">
+                <input type="button" value="9" name="btn" class="btn1 " onclick="calculator(this.value)">
+                <input type="button" value="0" name="btn" class="btn1 btn2" onclick="calculator(this.value)">
+                <input type="reset" value="C" name="btn" class="btn1 btn2" onclick="calculator(this.value)">
+                <input type="button" value="OK" id="passs" name="btn" class="btn1 btn2">
+
+            </div>
+
+            <div id="h31">
+                <h3 id="login">Login Successfully</h3>
+                <input type="button" value="Main Balance" class="logbtn" id="main">
+                <input type="button" value="Withdraw" class="logbtn" id="main2">
+            </div>
+
+            <div id="mainb">
+                <h2 id="h32"></h2>
+                <input type="button" value="Back" id="back" onclick="show4()" class="logbtn">
+            </div>
+
+          
+
+        </form>
+    </div>
+
+
+
+    <script src="main2.js"></script>
+</body>
+
+</html>
